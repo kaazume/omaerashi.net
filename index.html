@@ -1,2 +1,46 @@
-<title>おまえらしねっと</title>
-<center>おまえらしねっと</center>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>お前ら死net</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #000;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .rainbow-text {
+            font-size: 3rem;
+            font-weight: bold;
+            animation: rainbow 1s infinite;
+        }
+
+        @keyframes rainbow {
+            0% { color: red; }
+            14% { color: orange; }
+            28% { color: yellow; }
+            42% { color: green; }
+            57% { color: blue; }
+            71% { color: indigo; }
+            85% { color: violet; }
+            100% { color: red; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="rainbow-text">お前ら死ね</h1>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+</html>
